@@ -30,6 +30,20 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TtB-PK-vDL">
+                                <rect key="frame" x="287" y="218" width="30" height="30"/>
+                                <state key="normal" title="#"/>
+                                <connections>
+                                    <action selector="onHashtaButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cNy-wu-v4V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9C-QZ-bH6">
+                                <rect key="frame" x="275" y="316" width="55" height="30"/>
+                                <state key="normal" title="Reverse"/>
+                                <connections>
+                                    <action selector="onReverseButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iSj-sZ-7gi"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Db6-YC-GXm">
                                 <rect key="frame" x="267" y="180" width="67" height="30"/>
                                 <state key="normal" title="Twitterize"/>
@@ -38,7 +52,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="characterCounts" destination="y9D-fU-8HQ" id="vIS-7e-wNQ"/>
